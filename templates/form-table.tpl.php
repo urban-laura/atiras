@@ -1,6 +1,9 @@
 ﻿<head>
 <link rel='stylesheet' type='text/css' href='css/atiras.css'>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="js/atiras.js"></script>
 </head>
 
 <body>
@@ -24,7 +27,7 @@
 <tr>
 <td class='padding-top'>
 Teljesítmény: 
-<input type='number' name='teljesitmeny' class='date' value='###teljesitmeny###'>
+<input type='number' name='teljesitmeny' id='power' class='date' value='###teljesitmeny###'>
 <select name='or' class='or'>
 	###or-options###
 </select>
