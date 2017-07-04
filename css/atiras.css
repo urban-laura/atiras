@@ -1,0 +1,84 @@
+#atiras
+{
+	background-color : #EEEEEE;
+	color: #01224a;
+	font-family : Verdana;
+	width : 420px;
+	padding : 15px; 
+}
+
+#sum
+{
+	background-color : #EEEEEE; 
+	color: #01224a; 
+	font-family : Verdana; 
+	width : 420px; 
+	padding-top : 10px; 
+}
+
+#error
+{
+	color: red;
+	text-align : center;
+}
+
+.calc-form
+{
+	margin : 0;
+}
+
+.title
+{
+	background-color : #005398;
+	font-family : Verdana;
+	width : 420px;
+	height : 50px; 
+	border-radius : 5px 5px 0px 0px; 
+	text-align : center;
+	font-weight: bold; 
+	font-size : 20px;
+	color : white;
+}
+
+.date
+{
+	width : 70px;
+}
+
+.padding-top
+{
+	padding-top : 15px;
+}
+
+.submit
+{
+	background-color : #EEEEEE;
+	color: #01224a;
+	font-family : Verdana;
+	width : 420px;
+	text-align : center;
+}
+
+.form-submit
+{
+	width : 100px;
+	height : 30px;
+}
+
+.zero
+{
+	background-color : #EEEEEE; 
+	color: #01224a;
+	width : 420px; 
+	border-radius : 0px 0px 5px 5px;
+}
+
+.or
+{
+	width : 45px;
+}
+
+.barrel
+{
+	width : 110px;
+}
