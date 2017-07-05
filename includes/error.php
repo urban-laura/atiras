@@ -2,14 +2,14 @@
 
 $message = '';
 
-if($m_year == $n_year && $m_month > $n_month)
+if(isset($_POST['submitted']) && $_POST['teljesitmeny'] == '')
 {
-	$message = 'Az első forgalomba helyezés dátuma</br>nem lehet későbbi,</br> mint az aktuális dátum.';
+	$message = 'Nem adta meg az autója teljesítményét.';
 }
 
-else
+if(isset($_POST['teljesitmeny']) && $_POST['teljesitmeny'] != '' && $_POST['teljesitmeny'] < 16)
 {
-	$message = '';
+	$message = 'Túl kicsi a teljesítmény.';
 }
 
 $output = str_replace('###error###', $message, $output);

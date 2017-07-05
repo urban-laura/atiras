@@ -10,7 +10,11 @@ include('includes/form-select-or.php');
 include('includes/form-select-barrel.php');
 include('includes/form-teljesitmeny.php');
 
+include('includes/sum-visibility.php');
+
 include('includes/calc.php');
+
+include('includes/sum.php');
 
 include('includes/error.php');
 

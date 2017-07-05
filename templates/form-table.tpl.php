@@ -38,7 +38,7 @@ Teljesítmény:
 <td>###error###</td>
 </tr>
 
-<tr class='text'>
+<tr>
 <td class='padding-top'>Hengerűrtartalom: 
 <select name='barrel' class='barrel'>
 	###barrel-options###
@@ -55,8 +55,44 @@ Teljesítmény:
 </tr>
 </table>
 
-
 </form>
 
+<table id='sum' class='###sum-visibility###'>	
+
+<tr>
+<td colspan='2' class='text'>Kiszámolt költségek</td>
+</tr>
+
+<tr>
+<td class='title2'>Vagyonszerzési illeték:</td>
+<td class='value'>###vagyonszerzesi### Ft</td>
+</tr>
+
+<tr>
+<td class='title2'>Új forgalmi engedély:</td>
+<td class='value'>###forgalmi### Ft</td>
+</tr>
+
+<tr>
+<td class='title2'>Törzskönyv:</td>
+<td class='value'>###torzskonyv### Ft</td>
+</tr>
+
+<tr>
+<td class='title2'>Eredetvizsga:</td>
+<td class='value'>###hatosagi_dij### Ft</td>
+</tr>
+
+<tr>
+<td class='title2'>ÖSSZESEN FIZETENDŐ:</td>
+<td class='value'>###sum### Ft</td>
+</tr>
+</table>	
+	
+<table class='zero'>
+<tr>
+<td></td>
+</tr>
+</table>
 
 </body>

@@ -87,10 +87,12 @@ $sum = $hatosagi_dij + $forgalmi + $torzskonyv + $vagyonszerzesi;
 $forgalmi2 = number_format($forgalmi, 0, '', ' ');
 $torzskonyv2 = number_format($torzskonyv, 0, '', ' ');
 $vagyonszerzesi2 = number_format($vagyonszerzesi, 0, '', ' ');
+$hatosagi_dij2 = number_format($hatosagi_dij, 0, '', ' ');
 $sum2 = number_format($sum, 0, '', ' ');
 
 $debug['forgalmi'] = $forgalmi2;
 $debug['torzskonyv'] = $torzskonyv2;
 $debug['vagyonszerzesi'] = $vagyonszerzesi2;
+$debug['hatosagi_dij'] = $hatosagi_dij2;
 $debug['sum'] = $sum2;
 
