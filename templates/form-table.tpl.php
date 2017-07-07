@@ -7,62 +7,55 @@
 </head>
 
 <body>
-<table class='title'>
-<tr>
-<td>Személyautó átírás</td>
-</tr>
-</table>
+<div class='frame'>
+
+<div class='title'>
+<h1>Személyautó átírás</h1>
+</div>
 
 <form name='calculator' method='post' class='calc-form'>
 
-<table id='atiras'>
+<div id='atiras'>
 
-<tr>
-<td>Évjárat: 
+<h4>
+Évjárat: 
 <select name='year' class='date'>
 	###year-options###
 </select>
-</td>
+</h4>
 
-<tr>
-<td class='padding-top'>
+<h4>
 Teljesítmény: 
 <input type='number' name='teljesitmeny' id='power' class='date' value='###teljesitmeny###'>
 <select name='or' class='or'>
 	###or-options###
 </select>
-</td>
-</tr>
+</h4>
 
-<tr id='error'>
-<td>###error###</td>
-</tr>
+<div id='error'>
+<h3>###error###</h3>
+</div>
 
-<tr>
-<td class='padding-top'>Hengerűrtartalom: 
+<h5>
+Hengerűrtartalom: 
 <select name='barrel' class='barrel'>
 	###barrel-options###
 </select>
-</td>
-</tr>
+</h5>
+</div>
 
-</table>
-
-<table class='submit'>
+<div class='submit'>
 <input type='hidden' value='submitted' name='submitted'>
-<tr>
-<td><input type='submit' id='submit' value='Számol' class='form-submit'></td>
-</tr>
-</table>
+<input type='submit' id='submit' value='Számol' class='form-submit'>
+</div>
 
 </form>
 
-<table id='sum' class='###sum-visibility###'>	
+<div id='sum' class='###sum-visibility###'>	
 
-<tr>
-<td colspan='2' class='text'>Kiszámolt költségek</td>
-</tr>
+<h3>Kiszámolt költségek</h3>
 
+<table>
 <tr>
 <td class='title2'>Vagyonszerzési illeték:</td>
 <td class='value'>###vagyonszerzesi### Ft</td>
@@ -85,14 +78,10 @@ Teljesítmény:
 
 <tr>
 <td class='title2'>ÖSSZESEN FIZETENDŐ:</td>
-<td class='value'>###sum### Ft</td>
-</tr>
-</table>	
-	
-<table class='zero'>
-<tr>
-<td></td>
+<td class='value sum'>###sum### Ft</td>
 </tr>
 </table>
-
+</div>	
+	
+</div>
 </body>

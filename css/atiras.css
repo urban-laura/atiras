@@ -1,27 +1,70 @@
+.frame
+{
+	width : 420px;
+	font-family : Verdana;
+	background-color : #EEEEEE;
+	border-radius : 5px 5px 5px 5px;
+	color: #01224a;
+	padding-bottom : 5px;
+}
+
 #atiras
 {
-	background-color : #EEEEEE;
-	color: #01224a;
-	font-family : Verdana;
-	width : 420px;
 	padding : 15px; 
+	padding-top : 0;
+}
+
+#atiras h4
+{
+	font-weight : normal;
+	margin-top : 10px;
+	margin-bottom : 0px;
+}
+
+#atiras h5
+{
+	font-weight : normal;
+	margin : 0;
+	margin-top : 10px;
+	font-size : 16px;
 }
 
 #sum
 {
-	background-color : #EEEEEE; 
-	color: #01224a; 
-	font-family : Verdana; 
-	width : 420px; 
 	padding : 15px;
 	padding-top : 10px; 
 	padding-bottom : 0px;
 }
 
+#sum h3
+{
+	margin : 0;
+	font-size : 19px;
+	font-weight : normal;
+	margin-bottom : 15px;
+}
+
+#sum h4
+{
+	font-weight : normal;
+	margin-top : 0px;
+	margin-bottom : 10px;
+	font-size : 16px;
+	text-align : right;
+}
+
+
 #error
 {
 	color: red;
 	text-align : center;
+}
+
+#error h3
+{
+	font-weight : normal;
+	margin : 0px;
+	font-size : 16px;
 }
 
 .calc-form
@@ -32,14 +75,18 @@
 .title
 {
 	background-color : #005398;
-	font-family : Verdana;
-	width : 420px;
 	height : 50px; 
 	border-radius : 5px 5px 0px 0px; 
-	text-align : center;
+	text-align : center;	
+}
+
+.title h1
+{
 	font-weight: bold; 
 	font-size : 20px;
 	color : white;
+	margin : 0;
+	padding-top : 12px;
 }
 
 .date
@@ -67,14 +114,6 @@
 	height : 30px;
 }
 
-.zero
-{
-	background-color : #EEEEEE; 
-	color: #01224a;
-	width : 420px; 
-	border-radius : 0px 0px 5px 5px;
-}
-
 .or
 {
 	width : 45px;
@@ -85,20 +124,23 @@
 	width : 110px;
 }
 
-.text
-{
-	font-size : 21px;
-}
-
 .title2
 {
 	width : 220px; 
-	padding-top : 10px;
+	padding-bottom : 10px;
+	color: #01224a;
 }
 
 .value
 {
-	padding-top : 10px;
+	padding-bottom : 10px;
+	text-align : right;
+	color: #01224a;
+}
+
+.sum
+{
+	font-weight : bold;
 }
 
 .invisible
